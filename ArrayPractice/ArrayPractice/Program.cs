@@ -10,9 +10,9 @@ namespace ArrayPractice
     {
         static void Main(string[] args)
         {
-            //One();
-            //Two();
-            //Three();
+            One();
+            Two();
+            Three();
             Four();
         }
 
@@ -20,7 +20,7 @@ namespace ArrayPractice
         {
             int[] reverse = new int[5];
 
-            Console.WriteLine("give me a 5 numbers.");
+            Console.WriteLine("give me 5 numbers.");
 
             for (int i = 0; i < 5; i++)
             {
@@ -70,7 +70,7 @@ namespace ArrayPractice
 
             int[] first = new int[5];
 
-            Console.WriteLine("give me a 5 numbers.");
+            Console.WriteLine("give me 5 numbers.");
 
             for (int i = 0; i < 5; i++)
             {
@@ -94,7 +94,7 @@ namespace ArrayPractice
         {
             int[] numbers = new int[5];
 
-            Console.WriteLine("give me a 5 numbers.");
+            Console.WriteLine("give me 5 numbers.");
 
             for (int i = 0; i < 5; i++)
             {
